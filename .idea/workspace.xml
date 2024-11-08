@@ -4,22 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00fb193b-c0f2-45c5-aa14-9c52771caa14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Py3xWebAutomationFramework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/constants/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/pageObjects/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/pageObjects/pom/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/vwoLoginTests/__init__.py" afterDir="false" />
+    <list default="true" id="00fb193b-c0f2-45c5-aa14-9c52771caa14" name="Changes" comment="added new files">
+      <change afterPath="$PROJECT_DIR$/tests/pageObjects/page_factory/dashboardPage_pf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/pageObjects/page_factory/loginPage_pf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/pageObjects/pom/dashboardPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/pageObjects/pom/loginpage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test/katalonTest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test/vwoLoginTests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test/vwoLoginTests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test/vwoLoginTests/test_vwo_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test/vwoLoginTests/test_vwo_login_pf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/utils/ExcelReader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/utils/MySqlReader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/utils/common_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/pageObjects/pom/loginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/constants/Constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/vwoLoginTests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pageObjects/page_factory/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,21 +37,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "HimanthPythonQA"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;HimanthPythonQA&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/HimanthPythonQA/Py3xWebAutomationFramework.git",
-    "accountId": "354ebb67-41f3-49bf-9a7c-96b12292b66a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/HimanthPythonQA/Py3xWebAutomationFramework.git&quot;,
+    &quot;accountId&quot;: &quot;354ebb67-41f3-49bf-9a7c-96b12292b66a&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2oSLxim1FySb71LiRNcmOtHRLIQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -59,12 +60,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Himanth\PycharmProjects\Py3xWebAutomationFramework\tests\test" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -81,6 +87,19 @@
       <option name="presentableId" value="Default" />
       <updated>1730858278531</updated>
     </task>
+    <task id="LOCAL-00001" summary="added new files">
+      <option name="closed" value="true" />
+      <created>1730861334653</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730861334653</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added new files" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new files" />
   </component>
 </project>
